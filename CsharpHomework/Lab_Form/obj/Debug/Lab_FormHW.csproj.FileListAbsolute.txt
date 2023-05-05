@@ -1,0 +1,15 @@
+C:\Shared\CsharpHomework\Lab_Form\bin\Debug\Lab_Form.exe.config
+C:\Shared\CsharpHomework\Lab_Form\bin\Debug\Lab_Form.exe
+C:\Shared\CsharpHomework\Lab_Form\bin\Debug\Lab_Form.pdb
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_FormHW.csproj.AssemblyReference.cache
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_FormHW.csproj.SuggestedBindingRedirects.cache
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_Calculator.resources
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_Loan.resources
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_Main.resources
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_POS.resources
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_HelloForm.resources
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Properties.Resources.resources
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_FormHW.csproj.GenerateResource.cache
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_FormHW.csproj.CoreCompileInputs.cache
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.exe
+C:\Shared\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.pdb

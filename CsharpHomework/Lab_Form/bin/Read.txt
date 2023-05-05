@@ -1,0 +1,7 @@
+StreamReader 是針對特定編碼的字元輸入所設計，而 類別 Stream 則是針對位元組輸入和輸出所設計。 用於 StreamReader 從標準文字檔讀取資訊行。
+
+StreamReader 除非另有指定，否則預設為 UTF-8 編碼，而不是預設為目前系統的 ANSI 字碼頁。 UTF-8 會正確處理 Unicode 字元，並在當地語系化版本的作業系統上提供一致的結果。 如果您使用 屬性取得目前的字元編碼 CurrentEncoding ，則值在第一 Read 個方法之後才會可靠，因為直到第一次 Read 呼叫方法之前，才會完成編碼自動偵測。
+
+根據預設，不是 StreamReader 安全線程。 如需安全線程包裝函式，請參閱 TextReader.Synchronized 。
+
+Read(Char[], Int32, Int32)和 Write(Char[], Int32, Int32) 方法會多載參數所 count 指定的字元數，並加以寫入。 這些會與 BufferedStream.Read 和 BufferedStream.Write 區別，其可讀取和寫入 參數所 count 指定的位元組數目。 僅使用 BufferedStream 方法來讀取和寫入位元組陣列元素的整數編號。
