@@ -83,7 +83,7 @@
             this.labTitle.Location = new System.Drawing.Point(151, 30);
             this.labTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labTitle.Name = "labTitle";
-            this.labTitle.Size = new System.Drawing.Size(132, 43);
+            this.labTitle.Size = new System.Drawing.Size(127, 42);
             this.labTitle.TabIndex = 0;
             this.labTitle.Text = "C#作業";
             this.labTitle.Click += new System.EventHandler(this.labTitle_Click);

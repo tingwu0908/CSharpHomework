@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_HW_PictureShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW_PictureShow.Designer.cs">
+      <DependentUpon>Frm_HW_PictureShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW_PictureViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW_PictureViewer.Designer.cs">
+      <DependentUpon>Frm_HW_PictureViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_HW_GuessNumber_c.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +121,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_HW_PictureShow.resx">
+      <DependentUpon>Frm_HW_PictureShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW_PictureViewer.resx">
+      <DependentUpon>Frm_HW_PictureViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_HW_GuessNumber_c.resx">
       <DependentUpon>Frm_HW_GuessNumber_c.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_sekihan.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
