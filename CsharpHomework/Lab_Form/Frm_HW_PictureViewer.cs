@@ -19,15 +19,16 @@ namespace Lab_Form
             InitializeComponent();
         }
 
-        private void ShowPict()
+        private void ShowPict(string img)
         {
-            Frm_HW_PictureShow showPic = new Frm_HW_PictureShow();
-            
+            Frm_HW_PictureShow showPic = new Frm_HW_PictureShow(img);
+            showPic.Show();
         }
 
         private void p1_Click(object sender, EventArgs e)
         {
-
+            label1.Text = p1.Name;
+            ShowPict(this.Name);
         }
     }
 }

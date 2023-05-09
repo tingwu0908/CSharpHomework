@@ -80,3 +80,5 @@ C:\CSHW\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.exe
 C:\CSHW\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.pdb
 C:\CSHW\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_PictureViewer.resources
 C:\CSHW\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_PictureShow.resources
+C:\CSHW\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_StudentGrade_List.resources
+C:\CSHW\CsharpHomework\Lab_Form\obj\Debug\Lab_Form.Frm_HW_StudentGrade.resources

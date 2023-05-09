@@ -6,18 +6,40 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Lab_Form
 {
     public class Student
     {
         public string Name;
-        public int MandarinScore;
-        public int EnglishScore;
-        public int MathScore;
+        public double MandarinScore;
+        public double EnglishScore;
+        public double MathScore;
         public string HighestSub;
         public string LowestSub;
+        public double TtlScore;
+        public double AvgScore;
         
+        public void SetStacScore()
+        {
+            TtlScore = MandarinScore + EnglishScore + MathScore;
+            AvgScore = Math.Round(TtlScore / 3,1);
+            
+        }
+
+        public void RandomScore(int n)
+        {
+            Random rnd = new Random();
+            Name = (n+1).ToString();
+            MandarinScore = rnd.Next(1, 100);
+            EnglishScore = rnd.Next(1, 100);
+            MathScore = rnd.Next(1, 100);
+            SetStacScore();
+            HL();
+
+    }
+
         public void HL()
         {
             if (MandarinScore >= EnglishScore)
@@ -44,8 +66,7 @@ namespace Lab_Form
                 LowestSub = "國文"+MandarinScore;
             }
         }
-
-        public bool checkScore(int score)
+        public bool checkScore(double score)
         {
             if (score >= 0 && score <= 100)
             {
@@ -53,6 +74,38 @@ namespace Lab_Form
             }
             else return false;
         }
+
+    }
+
+    public class ListScore
+    {
+        public double[] sum = new double[3]; //國.英.數
+        public double[] avg = new double[3];
+        public double[] max = new double[3];
+        public double[] min = { 100,100,100};
+
+        public void ScoreCalculate(List<Student> st)
+        {
+            foreach(Student item in st)
+            {
+                sum[0] += item.MandarinScore;
+                sum[1] += item.EnglishScore;
+                sum[2] += item.MathScore;
+
+                avg[0] = sum[0] / st.Count;
+                avg[1] = sum[1] / st.Count;
+                avg[2] = sum[2] / st.Count;
+
+                max[0] = (max[0] > item.MandarinScore) ? max[0] : item.MandarinScore;
+                max[1] = (max[1] > item.EnglishScore) ? max[1] : item.EnglishScore;
+                max[2] = (max[2] > item.MathScore) ? max[2] : item.MathScore;
+
+                min[0] = (min[0] < item.MandarinScore) ? min[0] : item.MandarinScore;
+                min[1] = (min[1] < item.EnglishScore) ? min[1] : item.EnglishScore;
+                min[2] = (min[2] < item.MathScore) ? min[2] : item.MathScore;
+            }
+        }
+
     }
 
     public class Methods

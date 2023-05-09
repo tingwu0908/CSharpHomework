@@ -26,8 +26,8 @@ namespace Lab_Form
                 MessageBox.Show("請輸入姓名");
                 txtName.Focus();
             }
-            else if(int.TryParse(txtMand.Text, out st.MandarinScore)&&(int.TryParse(txtMath.Text, out st.MathScore))
-                &&(int.TryParse(txtEng.Text, out st.EnglishScore))&&
+            else if(double.TryParse(txtMand.Text, out st.MandarinScore)&&(double.TryParse(txtMath.Text, out st.MathScore))
+                &&(double.TryParse(txtEng.Text, out st.EnglishScore))&&
                 st.checkScore(st.MandarinScore) && st.checkScore(st.MathScore) && st.checkScore(st.EnglishScore))
             {
                 MessageBox.Show("儲存成功!");

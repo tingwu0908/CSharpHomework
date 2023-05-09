@@ -82,5 +82,17 @@ namespace Lab_Form
             Frm_HW_GuessNumber frm = new Frm_HW_GuessNumber();
             ShowForm(frm);
         }
+
+        private void btn05Student2_Click(object sender, EventArgs e)
+        {
+            Frm_HW_StudentGrade frm = new Frm_HW_StudentGrade();
+            ShowForm(frm);
+        }
+
+        private void btn06Student3_Click(object sender, EventArgs e)
+        {
+            Frm_HW_StudentGrade_List frm = new Frm_HW_StudentGrade_List();
+            ShowForm(frm);
+        }
     }
 }

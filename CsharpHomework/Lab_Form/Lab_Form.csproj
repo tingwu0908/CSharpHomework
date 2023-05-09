@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_HW_StudentGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW_StudentGrade.Designer.cs">
+      <DependentUpon>Frm_HW_StudentGrade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_HW_PictureShow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,12 @@
     </Compile>
     <Compile Include="Frm_HW_Method.Designer.cs">
       <DependentUpon>Frm_HW_Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HW_StudentGrade_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HW_StudentGrade_List.Designer.cs">
+      <DependentUpon>Frm_HW_StudentGrade_List.cs</DependentUpon>
     </Compile>
     <Compile Include="Utility.cs" />
     <Compile Include="Frm_HW_Student_StructForm.cs">
@@ -154,6 +166,12 @@
     <EmbeddedResource Include="Frm_HW_HelloForm.resx">
       <DependentUpon>Frm_HW_HelloForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW_StudentGrade.resx">
+      <DependentUpon>Frm_HW_StudentGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HW_StudentGrade_List.resx">
+      <DependentUpon>Frm_HW_StudentGrade_List.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_HW_Student_StructForm.resx">
       <DependentUpon>Frm_HW_Student_StructForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +183,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -178,6 +197,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_yukari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_yakionigiri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_wakame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_ume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_tenmusu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_tarako.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_takana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_seachicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_sake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_mentaiko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_konbu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\onigiri_ikura.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\onigiri_sekihan.png" />

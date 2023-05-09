@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_HW_PictureViewer));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.p13 = new System.Windows.Forms.PictureBox();
             this.p1 = new System.Windows.Forms.PictureBox();
             this.p2 = new System.Windows.Forms.PictureBox();
             this.p3 = new System.Windows.Forms.PictureBox();
@@ -42,8 +43,9 @@
             this.p10 = new System.Windows.Forms.PictureBox();
             this.p11 = new System.Windows.Forms.PictureBox();
             this.p12 = new System.Windows.Forms.PictureBox();
-            this.p13 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.p13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).BeginInit();
@@ -56,7 +58,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.p10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p13)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -83,6 +84,7 @@
             this.tableLayoutPanel1.Controls.Add(this.p10, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.p11, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.p12, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 5, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
@@ -92,6 +94,17 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(747, 375);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // p13
+            // 
+            this.p13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.p13.Image = ((System.Drawing.Image)(resources.GetObject("p13.Image")));
+            this.p13.Location = new System.Drawing.Point(375, 96);
+            this.p13.Name = "p13";
+            this.p13.Size = new System.Drawing.Size(87, 87);
+            this.p13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.p13.TabIndex = 12;
+            this.p13.TabStop = false;
             // 
             // p1
             // 
@@ -226,16 +239,14 @@
             this.p12.TabIndex = 11;
             this.p12.TabStop = false;
             // 
-            // p13
+            // label1
             // 
-            this.p13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.p13.Image = ((System.Drawing.Image)(resources.GetObject("p13.Image")));
-            this.p13.Location = new System.Drawing.Point(375, 96);
-            this.p13.Name = "p13";
-            this.p13.Size = new System.Drawing.Size(87, 87);
-            this.p13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.p13.TabIndex = 12;
-            this.p13.TabStop = false;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(468, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 15);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "label1";
             // 
             // Frm_HW_PictureViewer
             // 
@@ -246,6 +257,8 @@
             this.Name = "Frm_HW_PictureViewer";
             this.Text = "Picture Viewer";
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.p13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();
@@ -258,7 +271,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.p10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.p13)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -279,5 +291,6 @@
         private System.Windows.Forms.PictureBox p11;
         private System.Windows.Forms.PictureBox p12;
         private System.Windows.Forms.PictureBox p13;
+        private System.Windows.Forms.Label label1;
     }
 }

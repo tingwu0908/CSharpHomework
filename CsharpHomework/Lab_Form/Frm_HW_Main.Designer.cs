@@ -32,14 +32,16 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.labTitle = new System.Windows.Forms.Label();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.btnGuess = new System.Windows.Forms.Button();
-            this.btn00ForDoWhile = new System.Windows.Forms.Button();
-            this.btn00Method = new System.Windows.Forms.Button();
+            this.btn10Guess = new System.Windows.Forms.Button();
+            this.btn09ForDoWhile = new System.Windows.Forms.Button();
+            this.btn08Method = new System.Windows.Forms.Button();
             this.btn04Student1 = new System.Windows.Forms.Button();
-            this.btn00Calculator = new System.Windows.Forms.Button();
+            this.btn07Calculator = new System.Windows.Forms.Button();
             this.btn03POS = new System.Windows.Forms.Button();
             this.btn02Loan = new System.Windows.Forms.Button();
             this.btn01Hello = new System.Windows.Forms.Button();
+            this.btn06Student3 = new System.Windows.Forms.Button();
+            this.btn05Student2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -100,11 +102,13 @@
             this.splitContainer2.Panel1.AutoScroll = true;
             this.splitContainer2.Panel1.BackColor = System.Drawing.Color.MediumAquamarine;
             this.splitContainer2.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel1.BackgroundImage")));
-            this.splitContainer2.Panel1.Controls.Add(this.btnGuess);
-            this.splitContainer2.Panel1.Controls.Add(this.btn00ForDoWhile);
-            this.splitContainer2.Panel1.Controls.Add(this.btn00Method);
+            this.splitContainer2.Panel1.Controls.Add(this.btn05Student2);
+            this.splitContainer2.Panel1.Controls.Add(this.btn06Student3);
+            this.splitContainer2.Panel1.Controls.Add(this.btn10Guess);
+            this.splitContainer2.Panel1.Controls.Add(this.btn09ForDoWhile);
+            this.splitContainer2.Panel1.Controls.Add(this.btn08Method);
             this.splitContainer2.Panel1.Controls.Add(this.btn04Student1);
-            this.splitContainer2.Panel1.Controls.Add(this.btn00Calculator);
+            this.splitContainer2.Panel1.Controls.Add(this.btn07Calculator);
             this.splitContainer2.Panel1.Controls.Add(this.btn03POS);
             this.splitContainer2.Panel1.Controls.Add(this.btn02Loan);
             this.splitContainer2.Panel1.Controls.Add(this.btn01Hello);
@@ -119,50 +123,50 @@
             this.splitContainer2.SplitterWidth = 3;
             this.splitContainer2.TabIndex = 0;
             // 
-            // btnGuess
+            // btn10Guess
             // 
-            this.btnGuess.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGuess.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnGuess.BackColor = System.Drawing.Color.MintCream;
-            this.btnGuess.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnGuess.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnGuess.Location = new System.Drawing.Point(28, 331);
-            this.btnGuess.Name = "btnGuess";
-            this.btnGuess.Size = new System.Drawing.Size(122, 40);
-            this.btnGuess.TabIndex = 7;
-            this.btnGuess.Text = "??_Guess";
-            this.btnGuess.UseVisualStyleBackColor = false;
-            this.btnGuess.Click += new System.EventHandler(this.btnGuess_Click);
+            this.btn10Guess.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn10Guess.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn10Guess.BackColor = System.Drawing.Color.MintCream;
+            this.btn10Guess.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn10Guess.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn10Guess.Location = new System.Drawing.Point(30, 423);
+            this.btn10Guess.Name = "btn10Guess";
+            this.btn10Guess.Size = new System.Drawing.Size(122, 40);
+            this.btn10Guess.TabIndex = 7;
+            this.btn10Guess.Text = "10_Guess";
+            this.btn10Guess.UseVisualStyleBackColor = false;
+            this.btn10Guess.Click += new System.EventHandler(this.btnGuess_Click);
             // 
-            // btn00ForDoWhile
+            // btn09ForDoWhile
             // 
-            this.btn00ForDoWhile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn00ForDoWhile.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn00ForDoWhile.BackColor = System.Drawing.Color.MintCream;
-            this.btn00ForDoWhile.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn00ForDoWhile.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btn00ForDoWhile.Location = new System.Drawing.Point(28, 285);
-            this.btn00ForDoWhile.Name = "btn00ForDoWhile";
-            this.btn00ForDoWhile.Size = new System.Drawing.Size(122, 40);
-            this.btn00ForDoWhile.TabIndex = 6;
-            this.btn00ForDoWhile.Text = "??_ForDoWhile";
-            this.btn00ForDoWhile.UseVisualStyleBackColor = false;
-            this.btn00ForDoWhile.Click += new System.EventHandler(this.btn00ForDoWhile_Click);
+            this.btn09ForDoWhile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn09ForDoWhile.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn09ForDoWhile.BackColor = System.Drawing.Color.MintCream;
+            this.btn09ForDoWhile.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn09ForDoWhile.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn09ForDoWhile.Location = new System.Drawing.Point(30, 377);
+            this.btn09ForDoWhile.Name = "btn09ForDoWhile";
+            this.btn09ForDoWhile.Size = new System.Drawing.Size(122, 40);
+            this.btn09ForDoWhile.TabIndex = 6;
+            this.btn09ForDoWhile.Text = "09_ForDoWhile";
+            this.btn09ForDoWhile.UseVisualStyleBackColor = false;
+            this.btn09ForDoWhile.Click += new System.EventHandler(this.btn00ForDoWhile_Click);
             // 
-            // btn00Method
+            // btn08Method
             // 
-            this.btn00Method.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn00Method.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn00Method.BackColor = System.Drawing.Color.MintCream;
-            this.btn00Method.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn00Method.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btn00Method.Location = new System.Drawing.Point(28, 239);
-            this.btn00Method.Name = "btn00Method";
-            this.btn00Method.Size = new System.Drawing.Size(122, 40);
-            this.btn00Method.TabIndex = 5;
-            this.btn00Method.Text = "??_Method";
-            this.btn00Method.UseVisualStyleBackColor = false;
-            this.btn00Method.Click += new System.EventHandler(this.btnMethod_Click);
+            this.btn08Method.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn08Method.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn08Method.BackColor = System.Drawing.Color.MintCream;
+            this.btn08Method.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn08Method.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn08Method.Location = new System.Drawing.Point(30, 331);
+            this.btn08Method.Name = "btn08Method";
+            this.btn08Method.Size = new System.Drawing.Size(122, 40);
+            this.btn08Method.TabIndex = 5;
+            this.btn08Method.Text = "08_Method";
+            this.btn08Method.UseVisualStyleBackColor = false;
+            this.btn08Method.Click += new System.EventHandler(this.btnMethod_Click);
             // 
             // btn04Student1
             // 
@@ -179,20 +183,20 @@
             this.btn04Student1.UseVisualStyleBackColor = false;
             this.btn04Student1.Click += new System.EventHandler(this.btnStudent1_Click);
             // 
-            // btn00Calculator
+            // btn07Calculator
             // 
-            this.btn00Calculator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn00Calculator.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn00Calculator.BackColor = System.Drawing.Color.MintCream;
-            this.btn00Calculator.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn00Calculator.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btn00Calculator.Location = new System.Drawing.Point(28, 193);
-            this.btn00Calculator.Name = "btn00Calculator";
-            this.btn00Calculator.Size = new System.Drawing.Size(122, 40);
-            this.btn00Calculator.TabIndex = 3;
-            this.btn00Calculator.Text = "??_Calculator";
-            this.btn00Calculator.UseVisualStyleBackColor = false;
-            this.btn00Calculator.Click += new System.EventHandler(this.btn00Calculator_Click);
+            this.btn07Calculator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn07Calculator.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn07Calculator.BackColor = System.Drawing.Color.MintCream;
+            this.btn07Calculator.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn07Calculator.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn07Calculator.Location = new System.Drawing.Point(30, 285);
+            this.btn07Calculator.Name = "btn07Calculator";
+            this.btn07Calculator.Size = new System.Drawing.Size(122, 40);
+            this.btn07Calculator.TabIndex = 3;
+            this.btn07Calculator.Text = "07_Calculator";
+            this.btn07Calculator.UseVisualStyleBackColor = false;
+            this.btn07Calculator.Click += new System.EventHandler(this.btn00Calculator_Click);
             // 
             // btn03POS
             // 
@@ -239,6 +243,36 @@
             this.btn01Hello.UseVisualStyleBackColor = false;
             this.btn01Hello.Click += new System.EventHandler(this.btn01Hello_Click);
             // 
+            // btn06Student3
+            // 
+            this.btn06Student3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn06Student3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn06Student3.BackColor = System.Drawing.Color.MintCream;
+            this.btn06Student3.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn06Student3.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn06Student3.Location = new System.Drawing.Point(30, 239);
+            this.btn06Student3.Name = "btn06Student3";
+            this.btn06Student3.Size = new System.Drawing.Size(120, 40);
+            this.btn06Student3.TabIndex = 8;
+            this.btn06Student3.Text = "06_Student3";
+            this.btn06Student3.UseVisualStyleBackColor = false;
+            this.btn06Student3.Click += new System.EventHandler(this.btn06Student3_Click);
+            // 
+            // btn05Student2
+            // 
+            this.btn05Student2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn05Student2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn05Student2.BackColor = System.Drawing.Color.MintCream;
+            this.btn05Student2.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn05Student2.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.btn05Student2.Location = new System.Drawing.Point(30, 193);
+            this.btn05Student2.Name = "btn05Student2";
+            this.btn05Student2.Size = new System.Drawing.Size(120, 40);
+            this.btn05Student2.TabIndex = 9;
+            this.btn05Student2.Text = "05_Student2";
+            this.btn05Student2.UseVisualStyleBackColor = false;
+            this.btn05Student2.Click += new System.EventHandler(this.btn05Student2_Click);
+            // 
             // Frm_HW_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
@@ -272,10 +306,12 @@
         private System.Windows.Forms.Button btn01Hello;
         private System.Windows.Forms.Button btn03POS;
         private System.Windows.Forms.Button btn02Loan;
-        private System.Windows.Forms.Button btn00Calculator;
+        private System.Windows.Forms.Button btn07Calculator;
         private System.Windows.Forms.Button btn04Student1;
-        private System.Windows.Forms.Button btn00Method;
-        private System.Windows.Forms.Button btn00ForDoWhile;
-        private System.Windows.Forms.Button btnGuess;
+        private System.Windows.Forms.Button btn08Method;
+        private System.Windows.Forms.Button btn09ForDoWhile;
+        private System.Windows.Forms.Button btn10Guess;
+        private System.Windows.Forms.Button btn05Student2;
+        private System.Windows.Forms.Button btn06Student3;
     }
 }
